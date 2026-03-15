@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/dial"
+        android:title="Dial Number"/>
+
+    <item
+        android:id="@+id/website"
+        android:title="Open Website"/>
+
+    <item
+        android:id="@+id/sms"
+        android:title="Send SMS"/>
+
+</menu>
