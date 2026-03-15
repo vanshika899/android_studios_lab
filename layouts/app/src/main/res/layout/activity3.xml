@@ -1,0 +1,61 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView android:text="Username"/>
+        <EditText android:id="@+id/username"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Password"/>
+        <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Address"/>
+        <EditText android:id="@+id/address"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Gender"/>
+        <RadioGroup android:id="@+id/genderGroup">
+            <RadioButton android:id="@+id/male" android:text="Male"/>
+            <RadioButton android:id="@+id/female" android:text="Female"/>
+        </RadioGroup>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="Age"/>
+        <EditText
+            android:id="@+id/age"
+            android:inputType="number"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="DOB"/>
+        <DatePicker android:id="@+id/dob"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="State"/>
+        <Spinner android:id="@+id/state"/>
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/submit"
+            android:text="Submit"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:id="@+id/result"
+            android:textSize="16sp"/>
+    </TableRow>
+
+</TableLayout>
